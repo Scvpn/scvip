@@ -23,7 +23,6 @@ echo -e "\E[0;41;36m     🇮🇩 TRIAL SSH 🇮🇩     \E[0m"
 echo -e "\033[0;34m◇━━━━━━━━━━━━━━━━━◇\033[0m"
 echo -e "Username     : $Login"
 echo -e "Password     : $Pass"
-       Berakhir Pada  : $pup Menit
 echo -e "\033[0;34m◇━━━━━━━━━━━━━━━━━◇\033[0m"
 echo -e "IP           : $IP"
 echo -e "Host         : ${domain}"
@@ -43,6 +42,8 @@ echo -e "\033[0;34m◇━━━━━━━━━━━━━━━━━◇\033
 echo -e "" | tee -a /etc/log-create-user.log
 echo -e "Payload Websocket TLS  :" | tee -a /etc/log-create-user.log
 echo -e "GET https://[host]/ HTTP/1.1[crlf]Host: [host][crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m◇━━━━━━━━━━━━━━━━━◇\033[0m"
+echo -e "Aktif Selama   : $pup menit"
 echo -e "\033[0;34m◇━━━━━━━━━━━━━━━━━◇\033[0m"
 echo ""
 read -n 1 -s -r -p "SCRIPT BY BAYU & DANS"
