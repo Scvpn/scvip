@@ -3,6 +3,9 @@ clear
 domain=$(cat /etc/xray/domain)
 IP=$(curl -sS ifconfig.me);
 Login=Trial-`</dev/urandom tr -dc X-Z0-9 | head -c3`
+echo -e "\033[1;93m☉————————————————————————☉\033[0m"
+echo -e " Set Expired In Minutes           "
+echo -e "\033[1;93m☉————————————————————————☉\033[0m"
 hari="1"
 Pass=1
 echo Ping Host
