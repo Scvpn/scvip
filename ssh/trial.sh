@@ -9,7 +9,6 @@ echo -e "\033[1;93m☉———————————————————�
 read -p " Menit : " pup
 hari="1"
 Pass=1
-echo Ping Host
 echo Create Akun: $Login
 sleep 0.5
 echo Setting Password: $Pass
