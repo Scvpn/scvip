@@ -23,6 +23,7 @@ echo -e "\E[0;41;36m     🇮🇩 TRIAL SSH 🇮🇩     \E[0m"
 echo -e "\033[0;34m◇━━━━━━━━━━━━━━━━━◇\033[0m"
 echo -e "Username     : $Login"
 echo -e "Password     : $Pass"
+echo -e "Berakhir Pada  : $pup Menit
 echo -e "\033[0;34m◇━━━━━━━━━━━━━━━━━◇\033[0m"
 echo -e "IP           : $IP"
 echo -e "Host         : ${domain}"
